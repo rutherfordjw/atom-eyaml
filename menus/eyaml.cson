@@ -1,0 +1,17 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable eyaml': 'eyaml:encrypt'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'eyaml'
+      'submenu': [
+        { 'label': 'Encrypt', 'command': 'eyaml:encrypt' },
+        { 'label': 'MD5 Hash', 'command': 'eyaml:md5hash' }
+      ]
+    ]
+  }
+]

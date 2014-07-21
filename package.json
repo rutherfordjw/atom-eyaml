@@ -1,0 +1,14 @@
+{
+  "name": "eyaml",
+  "main": "./lib/eyaml",
+  "version": "0.1.0",
+  "description": "Encrypts selected string using eyaml",
+  "activationEvents": ["eyaml:decrypt", "eyaml:encrypt", "eyaml:md5hash"],
+  "repository": "https://github.com/atom/eyaml",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
